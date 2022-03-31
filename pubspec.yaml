@@ -17,11 +17,11 @@ dependencies:
       ref: master
   pointycastle:
     git:
-      url: https://github.com/jbdtky/pc-dart.git
+      url: "https://github.com/chintan-beecept/pointycastle-romit.git"
       ref: master
   bip32:
     git:
-      url: https://github.com/zapit-io/bip32-dart.git
+      url: "https://github.com/chintan-beecept/bip32-p2p.git"
       ref: master
   hex: ^0.2.0
   fixnum: ^1.0.0
