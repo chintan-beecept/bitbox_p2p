@@ -9,7 +9,7 @@ packages:
     source: hosted
     version: "2.8.2"
   bip32:
-    dependency: "direct main"
+    dependency: "direct overridden"
     description:
       path: "."
       ref: master
@@ -18,7 +18,7 @@ packages:
     source: git
     version: "2.0.0"
   bip39:
-    dependency: "direct main"
+    dependency: "direct overridden"
     description:
       path: "."
       ref: master
@@ -141,13 +141,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.0.0"
-  js:
-    dependency: transitive
-    description:
-      name: js
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.6.3"
   matcher:
     dependency: transitive
     description:
@@ -184,12 +177,14 @@ packages:
     source: hosted
     version: "1.11.0"
   pointycastle:
-    dependency: "direct main"
+    dependency: "direct overridden"
     description:
-      name: pointycastle
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "3.5.0"
+      path: "."
+      ref: master
+      resolved-ref: "276ca77d6d7a3f93d0cfad019bb69da2b9a6324b"
+      url: "https://github.com/jbdtky/pc-dart.git"
+    source: git
+    version: "1.0.2"
   sky_engine:
     dependency: transitive
     description: flutter
